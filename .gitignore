@@ -1,0 +1,23 @@
+# Entorno virtual y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuración local (puede tener rutas de tu equipo)
+.env
+
+# Pesos de modelos (se descargan solos) y datos de idioma locales
+modelos/
+*.pt
+tessdata/
+
+# Resultados de Ultralytics
+runs/
+
+# Editor y sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
